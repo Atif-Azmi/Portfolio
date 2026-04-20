@@ -1,11 +1,12 @@
 {
+  "version": 2,
   "buildCommand": "echo 'Build complete'",
-  "outputDirectory": "mo-atif-portfolio-vercel/public",
+  "outputDirectory": "./mo-atif-portfolio-vercel/public",
   "public": true,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/:path*",
+      "destination": "/index.html"
     }
   ]
 }
