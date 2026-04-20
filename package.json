@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-mern",
+  "version": "1.0.0",
+  "description": "Mo Atif Azmi - Aspiring Software and AI Engineer Portfolio",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "start": "echo 'Portfolio is ready to deploy'"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "developer"
+  ],
+  "author": "Mo Atif Azmi",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "buildCommand": "echo 'Build complete'",
+  "outputDirectory": "mo-atif-portfolio-vercel/public",
+  "public": true,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
